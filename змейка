@@ -1,0 +1,21 @@
+import time
+a = []
+a.append('#')
+j=0
+while j<12:
+    for i in a:
+        print(i,end='')
+    print('\n\n\n\n')
+    time.sleep(0.5)
+    a.append('#')
+    j=j+1
+print('привет')
+j=0
+while j<12:
+    a.pop()
+    for i in a:
+        print(i, end='')
+    print('\n\n\n\n')
+    time.sleep(0.5)
+    a.pop()
+    j=j+1
